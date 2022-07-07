@@ -12,7 +12,7 @@ while True:
 print(araye)
 
 for i in range(1,len(araye)):
-    if i > i-1:
+    if [i] > [i-1]:
         print('true')
     else:
         print('false')
